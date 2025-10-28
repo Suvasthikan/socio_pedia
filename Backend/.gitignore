@@ -1,11 +1,7 @@
-# ============================
-# 🌐 Full-Stack (React + Node.js) .gitignore
-# ============================
 
-# Node modules (frontend + backend)
+# Node modules 
 node_modules/
-client/node_modules/
-server/node_modules/
+Backend/node_modules/
 
 # Logs
 logs
@@ -28,11 +24,11 @@ tmp/
 temp/
 
 # React build folder
-client/build/
+Backend/build/
 
 # Backend build/public uploads
-server/public/uploads/
-server/build/
+Backend/public/uploads/
+Backend/build/
 
 # OS / system files
 .DS_Store
